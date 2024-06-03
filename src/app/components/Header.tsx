@@ -6,11 +6,6 @@ import GlowingButton from './GlowingButton';
 import Link from 'next/link';
 
 export default function Header() {
-    const handleLinkClick = (e) => {
-        e.preventDefault();
-        window.open("https://www.dropbox.com/scl/fi/arkw69ba00m82tcas4zjh/cv_resume_june_2024.pdf?rlkey=u0od12hczj3h1xmpmh0ku38ul&st=md0dkbfa&dl=0", "_blank");
-    };
-
     const CodeTyper = "</CodeTyper>";
     return (
         <div className="flex flex-row justify-between w-full">
