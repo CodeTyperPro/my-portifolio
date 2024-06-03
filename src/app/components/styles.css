@@ -1,0 +1,54 @@
+:root {
+    --sky-100: #d8f3dc;
+    --sky-200: #b7e4c7;
+    --sky-300: #95d5b3;
+    --sky-400: #74c6a0;
+    --sky-500: #52b78c;
+    --sky-600: #3ea97a;
+    --sky-700: #318c64;
+    --sky-800: #246f4d;
+    --sky-900: #155235;
+  }
+  
+
+.button {
+    position: relative;
+    z-index: 1;
+    background: var(--sky-900);
+    border: 3px solid;
+    border-color: var(--sky-400);
+    border-radius: 0.75rem;
+    color: var(--sky-300);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition: 250ms ease-in-out;
+    transition-property: all;
+  }
+  
+  .button:hover,
+  .button:focus {
+    color: var(--sky-200);
+    background-color: var(--sky-800);
+    transform: scale(1.1);
+  }
+  
+  .text {
+    filter: drop-shadow(0 0 1px currentcolor);
+  }
+  
+  .button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.6;
+    border-radius: inherit;
+    box-shadow: 0 0 1em 0.5em var(--sky-300);
+    transition: 250ms ease-in-out;
+    transition-property: opacity;
+  }
+  
+  .button:hover::after,
+  .button:focus::after {
+    opacity: 0.6;
+  }
