@@ -31,7 +31,7 @@ import R4C from '../../assets/Projects/R4C.png';
 import SongTyper from '../../assets/Projects/SongTyper.png';
 import Vacathon from '../../assets/Projects/Vacathon.png';
 import PhoneBook from '../../assets/Projects/PhoneBook.png';
-import NUMENU from '../../assets/Projects/NUMENU.png';
+import NUMENU from '../../assets/Projects/Numenu.png';
 import Boop from '../../assets/Projects/Boop.png';
 
 const data = [
