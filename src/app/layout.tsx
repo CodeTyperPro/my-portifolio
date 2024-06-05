@@ -35,7 +35,7 @@ export default function RootLayout({
         fontSans.variable,
         inter.className
       )} style={{ backgroundColor: '#263348' }} >
-        <div className="flex flex-col h-auto w-full justify-between">
+        <div className="flex flex-col h-auto w-full justify-between bg-fixed">
           <Image src={Background} className="absolute w-auto h-auto" style={{ opacity: 0.2, zIndex: -1 }} alt="Background" />
           <Header />
           <Container children={children} />

@@ -8,12 +8,12 @@ import Link from 'next/link';
 export default function Header() {
     const CodeTyper = "</CodeTyper>";
     return (
-        <div className="flex flex-row justify-between w-full">
+        <div className="flex flex-row justify-end w-full reduce-space fixed">{/*
             <div className='flex flex-row gap-5 justify-center items-center pl-5'>
                 <span className="text-sky-400 text-2xl font-bold reduce-space">&lt;</span>
                 <span className="text-white text-2xl font-bold reduce-space">CodeTyper</span>
                 <span className="text-sky-400 text-2xl font-bold reduce-space">/&gt;</span>
-            </div>
+            </div>*/}
             <div className='flex flex-row gap-5 justify-center items-center pr-2'>
                 <div className="relative">
                     <Image

@@ -12,7 +12,7 @@ export default function Container({
                 <div className="flex flex-2 h-full">
                     <Sidebar />
                 </div>
-                <div className="flex flex-1 bg-red-0 h-full">
+                <div className="flex flex-1 bg-red-0 h-full mt-14 ml-16">
                     <Content>{children}</Content>
                 </div>
             </div>

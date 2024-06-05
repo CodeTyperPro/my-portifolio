@@ -16,9 +16,15 @@ export default function Sidebar() {
     const textTyle = "ml-3";
 
     return (
-        <div className=" flex flex-col p-4 bg-red-0">
+        <div className=" flex flex-col p-4 bg-red-0 fixed">
 
-            <div>
+            <div className='flex flex-row gap-5 justify-center items-center pl-0 mb-9'>
+                <span className="text-sky-400 text-2xl font-bold reduce-space">&lt;
+                    <span className="text-white text-2xl font-bold reduce-space"> CodeTyper <span className="text-sky-400 text-2xl font-bold reduce-space">/&gt;</span></span></span>
+
+            </div>
+
+            <div className="">
                 <Link href="/screens/home" className={linkStyle}>
                     <FaHome className={iconStyle} />
                     <span className={textTyle}>Home</span>
