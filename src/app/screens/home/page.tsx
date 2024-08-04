@@ -355,7 +355,7 @@ export default function Home() {
                     <div className="p-5" style={{ width: '1200px', height: '840px', opacity: 0.8 }}>
                         <div style={{ maxHeight: '825px', overflowX: 'hidden', overflowY: 'scroll', WebkitOverflowScrolling: 'touch', scrollbarWidth: 'none', msOverflowStyle: 'none' }} className="overflow-y-scroll">
                             <ul className="flex flex-col items-center gap-5 overflow-y-scroll no-scrollbar relative" style={{ maxHeight: '825px', overflowY: 'scroll', WebkitOverflowScrolling: 'touch', scrollbarWidth: 'none', msOverflowStyle: 'none', overflowX: 'hidden' }}>
-                                {certificates.map(item => (
+                                {certificates.splice(0, 1).map(item => (
                                     <li key={item.id} className={`justify-${item.id % 2 === 0 ? 'start' : 'end'} flex`} style={{ height: 'auto' }}>
                                         <div className="flex flex-col reduce-space" style={{ width: '50%' }}>
                                             {item.id % 2 === 1 ? (
