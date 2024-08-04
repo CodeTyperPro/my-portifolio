@@ -26,6 +26,7 @@ import Bomberman from '../../assets/Projects/Bomberman.png';
 import Proteja from '../../assets/Projects/Proteja.png';
 import PhoneTesting from '../../assets/Projects/Testing.jpg';
 import AC_FORCE from '../../assets/Projects/AC_Force.png';
+import Blockchain from '../../assets/Projects/Blockchain.png';
 import EloSystem from '../../assets/Projects/Elo System - K&H HACK3 2023.png';
 import R4C from '../../assets/Projects/R4C.png';
 import SongTyper from '../../assets/Projects/SongTyper.png';
@@ -49,17 +50,18 @@ const data = [
 ];
 
 const project = [
-    { id: 1, projectImage: AC_FORCE, title: 'AC Force', link: 'https://github.com/CodeTyperPro/acforce-react-app' },
-    { id: 2, projectImage: EloSystem, title: 'Elo System - K&H HACK3 2023', link: 'https://github.com/CodeTyperPro/EloSystem_K-H_HACK3' },
-    { id: 3, projectImage: Bomberman, title: 'Bomberman', link: 'https://github.com/CodeTyperPro/bomberman-starforce' },
-    { id: 4, projectImage: Boop, title: 'Boop', link: 'https://github.com/CodeTyperPro/boop' },
-    { id: 5, projectImage: R4C, title: 'R4C', link: 'https://github.com/CodeTyperPro/R4C' },
-    { id: 6, projectImage: SongTyper, title: 'SongTyper', link: 'https://github.com/CodeTyperPro/music-playlist' },
-    { id: 7, projectImage: NUMENU, title: 'NUMENU', link: 'https://github.com/CodeTyperPro/NUMENU' },
-    { id: 8, projectImage: Proteja, title: 'Proteja Sua Vida', link: 'https://github.com/CodeTyperPro/PSV' },
-    { id: 9, projectImage: PhoneTesting, title: 'Phone Testing', link: 'https://github.com/CodeTyperPro/phone-task-testing' },
-    { id: 10, projectImage: Vacathon, title: 'Vacathon', link: 'https://github.com/CodeTyperPro/Vacathon' },
-    { id: 11, projectImage: PhoneBook, title: 'PhoneBook', link: 'https://github.com/CodeTyperPro/phone-book' },
+    { id: 1, projectImage: Blockchain, title: 'Blockchain Angola', link: 'https://github.com/AlfredoMartins/blockchain-angola' },
+    { id: 2, projectImage: AC_FORCE, title: 'AC Force', link: 'https://github.com/CodeTyperPro/acforce-react-app' },
+    { id: 3, projectImage: EloSystem, title: 'Elo System - K&H HACK3 2023', link: 'https://github.com/CodeTyperPro/EloSystem_K-H_HACK3' },
+    { id: 4, projectImage: Bomberman, title: 'Bomberman', link: 'https://github.com/CodeTyperPro/bomberman-starforce' },
+    { id: 5, projectImage: Boop, title: 'Boop', link: 'https://github.com/CodeTyperPro/boop' },
+    { id: 6, projectImage: R4C, title: 'R4C', link: 'https://github.com/CodeTyperPro/R4C' },
+    { id: 7, projectImage: SongTyper, title: 'SongTyper', link: 'https://github.com/CodeTyperPro/music-playlist' },
+    { id: 8, projectImage: NUMENU, title: 'NUMENU', link: 'https://github.com/CodeTyperPro/NUMENU' },
+    { id: 9, projectImage: Proteja, title: 'Proteja Sua Vida', link: 'https://github.com/CodeTyperPro/PSV' },
+    { id: 10, projectImage: PhoneTesting, title: 'Phone Testing', link: 'https://github.com/CodeTyperPro/phone-task-testing' },
+    { id: 11, projectImage: Vacathon, title: 'Vacathon', link: 'https://github.com/CodeTyperPro/Vacathon' },
+    { id: 12, projectImage: PhoneBook, title: 'PhoneBook', link: 'https://github.com/CodeTyperPro/phone-book' },
 ];
 
 const certificates = [
