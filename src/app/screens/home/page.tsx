@@ -384,7 +384,7 @@ export default function Home() {
                                                         alt="Background"
                                                     />
                                                     <div className="flex absolute gap-16 p-1.5 pr-10">
-                                                        <span className="font-normal text-sm text-white">August, 2023</span>
+                                                        <span className="font-normal text-sm text-white">Aug., 2023</span>
                                                         <span className="font-normal text-sm text-white">2024</span>
                                                     </div>
                                                 </div>
