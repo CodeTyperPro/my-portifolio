@@ -382,25 +382,26 @@ export default function Home() {
                                                         alt="Background"
                                                     />
                                                     <div className="flex absolute gap-16 p-1.5 pr-10">
-                                                        <span className="font-normal text-sm text-white">July, 2023</span>
-                                                        <span className="font-normal text-sm text-white">Now</span>
+                                                        <span className="font-normal text-sm text-white">August, 2023</span>
+                                                        <span className="font-normal text-sm text-white">March, 2024</span>
                                                     </div>
                                                 </div>
                                             )}
 
-                                            <h1 className="font-sans text-md" style={{ color: '#A6DFD0' }}>Student Demonstrator | Imperative Programming Instructor</h1>
+                                            <h1 className="font-sans text-md" style={{ color: '#A6DFD0' }}>Platform Engineer Trainee</h1>
                                             <h1 className="font-sans text-md" style={{ color: '#8995AA' }}>Responsabilities</h1>
 
                                             <div className="flex flex-row gap-0.5" >
                                                 <div className='bg-sky-700 ml-4' style={{ width: '4px' }} />
                                                 <div className="flex flex-col bg-sky-800 p-2 gap-2">
-                                                    <p className="text-white text-sm leading-tight justify whitespace-normal">Conducted weekly training sessions and provided consultations for international fellow students, dedicating 3 hours per week to ensure their academic success.</p>
-                                                    <p className="text-white text-sm leading-tight justify whitespace-normal">Developed and designed quizzes to assess students' understanding of course material, employing effective evaluation techniques to gauge their progress.</p>
-                                                    <p className="text-white text-sm leading-tight justify whitespace-normal">Demonstrated efficiency in grading assignments and exams promptly, maintaining high standards of accuracy and fairness in the evaluation process.</p>
+                                                <p className="text-white text-sm leading-tight justify whitespace-normal">Member of the Quality Assurance (QA) team of the Cloud Band Application RD, responsible for running manual tests and implementing automated tests to ensure that the product fulfills the customer requirements.</p>
+                                                <p className="text-white text-sm leading-tight justify whitespace-normal">Automation of existing tests using software testing tools - test plan automation, features validations, manual testing GUI feature.</p>
+                                                <p className="text-white text-sm leading-tight justify whitespace-normal">Participated in daily meetings.</p>
+                                                <p className="text-white text-sm leading-tight justify whitespace-normal">Built domain knowledge in Linux, scripting (JAVA and JavaScript), testing (Postman), cloud and computer networking.</p>
                                                 </div>
                                             </div>
 
-                                            <h3 className="font-sans text-md" style={{ color: '#E5E5E5' }}>C Programming Language, time management ...</h3>
+                                            <h3 className="font-sans text-md" style={{ color: '#E5E5E5' }}>Java Programming Language, time management ...</h3>
                                         </div>
                                     </li>
                                 ))}
