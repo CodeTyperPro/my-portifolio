@@ -70,11 +70,15 @@ const certificates = [
     { id: 3, title: 'Git Essential Training', link: 'https://www.linkedin.com/learning/certificates/53d2fd6ec4ac282a90d8bf929db6bebd7cd9f5d8172b4045643414fb099bc811?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt61jGXIwQ52h3cYO2exn%2Fg%3D%3D' },
     { id: 4, title: 'Postman Essential Training', link: 'https://www.linkedin.com/learning/certificates/bfc1a32cf866fe835a2e494f2a38dea25600a664ff6e5f3dbd114bb7d01912d1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bt61jGXIwQ52h3cYO2exn%2Fg%3D%3D' },
     { id: 5, title: 'Decision-Making Strategies', link: 'https://www.linkedin.com/learning/certificates/8d15131a2f808507efc29d104ba390cef3569c0f8eb45eeed03da2944088c9b0' },
-    { id: 6, title: 'Problem Solving (Basic)', link: 'https://www.hackerrank.com/certificates/c8787059177e' },
-    { id: 7, title: 'C# (Basic)', link: 'https://www.hackerrank.com/certificates/023b2a4097a6' },
-    { id: 8, title: 'Go (Basic)', link: 'https://www.hackerrank.com/certificates/97d51521bbb3' },
-    { id: 9, title: 'Java (Basic)', link: 'https://www.hackerrank.com/certificates/8e28e9f11e7a' },
-    { id: 10, title: 'Python (Basic)', link: 'https://www.hackerrank.com/certificates/743076126424' },
+    { id: 6, title: 'Problem Solving (Intermediate)', link: 'https://www.hackerrank.com/certificates/cc50387b8e62' },
+    { id: 7, title: 'Frontend Developer (React)', link: 'https://www.hackerrank.com/certificates/bf303c599c88' },
+    { id: 8, title: 'Software Engineer Intern', link: 'https://www.hackerrank.com/certificates/f6eeb2427dd9' },
+    { id: 9, title: 'SQL', link: 'https://www.hackerrank.com/certificates/bf303c599c88' },
+    { id: 10, title: 'Problem Solving (Basic)', link: 'https://www.hackerrank.com/certificates/c8787059177e' },
+    { id: 11, title: 'C# (Basic)', link: 'https://www.hackerrank.com/certificates/023b2a4097a6' },
+    { id: 12, title: 'Go (Basic)', link: 'https://www.hackerrank.com/certificates/97d51521bbb3' },
+    { id: 13, title: 'Java (Basic)', link: 'https://www.hackerrank.com/certificates/8e28e9f11e7a' },
+    { id: 14, title: 'Python (Basic)', link: 'https://www.hackerrank.com/certificates/743076126424' },
 ];
 
 import { IoLocationOutline } from "react-icons/io5";
