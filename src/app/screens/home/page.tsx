@@ -159,7 +159,7 @@ export default function Home() {
                                             </span>
                                             <div className="flex flex-1 flex-row justify-center items-center h-full gap-1 pt-2">
                                                 <IoLocationOutline size={15} style={{ color: 'white' }} />
-                                                <span className="text-white text-sm h-full">Budapest, Hungary</span>
+                                                <span className="text-white text-sm h-full">Porto, Portugal</span>
                                             </div>
                                         </div>
                                     </div>
